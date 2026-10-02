@@ -1,0 +1,8 @@
+import React from 'react';
+import { ArrowRight, Clock3, MapPin, Phone } from 'lucide-react';
+import { ButtonLink, PageHero } from '../components.jsx';
+import { address, images, mapsHref, phone, phoneHref } from '../data.js';
+
+export default function Contact() { return <main><PageHero image={images.interior} eyebrow="Come find us" title={<>Let's <em>connect.</em></>} subtitle="We'd love to welcome you to Uplooks." className="hero-contact"/>
+  <section className="section-pad container contact-layout"><div className="contact-copy"><span className="eyebrow">Uplooks · Unisex Saloon</span><h2>We can't wait<br/><em>to see you.</em></h2><p>Find us in Mansarovar, Jaipur, or give us a call to plan your visit.</p><div className="contact-detail"><MapPin/><div><h3>Visit us</h3><p>{address}</p><a href={mapsHref} target="_blank" rel="noreferrer">Get directions <ArrowRight size={15}/></a></div></div><div className="contact-detail"><Phone/><div><h3>Call us</h3><a href={phoneHref}>{phone}</a></div></div><div className="contact-detail"><Clock3/><div><h3>Opening hours</h3><p>Every day · 9:00 AM – 10:30 PM</p></div></div><div className="contact-actions"><ButtonLink to="/booking">Book appointment</ButtonLink><a className="button button-outline-dark" href={phoneHref}>Call now <Phone size={15}/></a></div></div><div className="contact-visual"><img src={images.interior} alt="Illustrative salon interior"/><a href={mapsHref} target="_blank" rel="noreferrer" className="map-card"><MapPin size={23}/><span><strong>Uplooks, Mansarovar</strong><small>Open location in Google Maps</small></span><ArrowRight size={17}/></a></div></section>
+</main>; }
