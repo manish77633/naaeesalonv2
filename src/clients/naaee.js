@@ -36,12 +36,22 @@ export const services = [
 ];
 
 export const gallery = [
-  { id: 'hair', image: images.hero, category: 'Hair', title: 'Hair services', shape: 'feature', position: 'center', illustrative: true },
-  { id: 'styling', image: images.beauty, category: 'Hair', title: 'Hair styling', shape: 'tall', position: 'center', illustrative: true },
-  { id: 'nails', image: images.beauty, category: 'Nails', title: 'Nail services', shape: 'tall', position: 'center', illustrative: true },
-  { id: 'beauty', image: images.beauty, category: 'Beauty', title: 'Beauty services', shape: 'tall', position: 'center', illustrative: true },
-  { id: 'manicure', image: images.interior, category: 'Nails', title: 'Manicure', shape: 'tall', position: 'center', illustrative: true },
-  { id: 'salon', image: images.interior, category: 'Salon', title: 'Illustrative salon space', shape: 'wide', position: 'center', illustrative: true },
+  { id: 'hair', image: images.hero, category: 'Hair', title: 'Illustrative hair image', shape: 'feature', position: 'center', illustrative: true },
+  { id: 'styling', image: '/media/gallery/mens-styling.webp', category: 'Hair', title: 'Illustrative hair styling image', shape: 'tall', position: 'center 24%', illustrative: true },
+  { id: 'layered-hair', image: '/media/gallery/layered-hair.webp', category: 'Hair', title: 'Illustrative hair image', shape: 'tall', position: 'center 47%', illustrative: true },
+  { id: 'hair-portrait', image: '/media/gallery/hair-portrait.webp', category: 'Beauty', title: 'Illustrative beauty image', shape: 'tall', position: 'center 20%', illustrative: true },
+  { id: 'glossy-hair', image: '/media/gallery/glossy-hair.webp', category: 'Hair', title: 'Illustrative hair image', shape: 'tall', position: 'center 48%', illustrative: true },
+  { id: 'long-hair-styling', image: '/media/gallery/long-hair-styling.webp', category: 'Hair', title: 'Illustrative hair styling image', shape: 'tall', position: 'center 28%', illustrative: true },
+  { id: 'occasion-makeup', image: '/media/gallery/occasion-makeup.webp', category: 'Beauty', title: 'Illustrative beauty image', shape: 'tall', position: 'center 28%', illustrative: true },
+  { id: 'bridal-red', image: '/media/gallery/bridal-red.webp', category: 'Beauty', title: 'Illustrative beauty image', shape: 'feature', position: 'center 22%', illustrative: true },
+  { id: 'bridal-yellow', image: '/media/gallery/bridal-yellow.webp', category: 'Beauty', title: 'Illustrative beauty image', shape: 'tall', position: 'center 25%', illustrative: true },
+  { id: 'bridal-profile', image: '/media/gallery/bridal-profile.webp', category: 'Beauty', title: 'Illustrative beauty image', shape: 'square', position: 'center', illustrative: true },
+  { id: 'bridal-detail', image: '/media/gallery/bridal-detail.webp', category: 'Beauty', title: 'Illustrative beauty image', shape: 'square', position: 'center', illustrative: true },
+  { id: 'bridal-seated', image: '/media/gallery/bridal-seated.webp', category: 'Beauty', title: 'Illustrative beauty image', shape: 'square', position: 'center', illustrative: true },
+  { id: 'bridal-hairstyle', image: '/media/gallery/bridal-hairstyle.webp', category: 'Hair', title: 'Illustrative hair image', shape: 'square', position: 'center', illustrative: true },
+  { id: 'mens-hair-side', image: '/media/gallery/mens-hair-side.webp', category: 'Hair', title: 'Illustrative hair image', shape: 'tall', position: 'center 42%', illustrative: true },
+  { id: 'mens-portrait', image: '/media/gallery/mens-portrait.webp', category: 'Hair', title: 'Illustrative hair image', shape: 'tall', position: 'center 28%', illustrative: true },
+  { id: 'salon-space', image: images.interior, category: 'Salon', title: 'Illustrative salon space', shape: 'wide', position: 'center 55%', illustrative: true },
 ];
 
 export const reels = [
