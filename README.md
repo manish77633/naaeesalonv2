@@ -1,6 +1,6 @@
-# Uplooks Unisex Saloon
+# Salon site configurations
 
-Responsive multi-page website based on the supplied Uplooks design reference.
+Responsive multi-page website based on the supplied Uplooks design reference. NAAEE SALON is the default client for this repository. The original Uplooks data remains in `src/clients/uplooks.js`.
 
 ## Run locally
 
@@ -10,6 +10,12 @@ npm run dev
 ```
 
 `npm run build` creates the production site in `dist/`. Hosting must serve `index.html` for all page routes.
+
+To build the unchanged Uplooks configuration, run `npm run build:uplooks`. Vercel uses the default NAAEE configuration and the SPA rewrite in `vercel.json`.
+
+NAAEE currently uses a text logo placeholder and illustrative salon images and demo reels. Replace these with approved NAAEE assets when available. The appointment flow opens WhatsApp at the supplied phone number; confirm that this number accepts WhatsApp messages before relying on online booking.
+
+## Uplooks media notes
 
 ## Replace demo media
 
